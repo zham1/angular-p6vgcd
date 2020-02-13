@@ -22,7 +22,7 @@ clearCart(){
   return this.items
 }
 
-getShippingPrice(){
+getShippingPrices(){
   return this.http.get('/assets/shipping.json')
 }
 
